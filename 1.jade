@@ -1,0 +1,29 @@
+doctype
+html
+	head
+		meta(charset="utf-8")
+		title
+		style
+			include 1.css
+	body
+		-arr=['新闻','简讯','信息']
+		-arr1=['user','ell','xing']
+		ul.ul1
+			-for(var i=0;i<arr.length;i++)
+				-if(arr[i]==tit)
+					a(href="http://localhost:8000/"+arr1[i])
+						li.li=arr[i]
+				-else
+					a(href="http://localhost:8000/"+arr1[i])
+						li.li=arr[i]
+		ol
+			-for(var i=0;i<txtarr.length;i++)
+					li=txtarr[i]
+		ul.dian
+			-for(var i=0;i<nums;i++)
+				-if(diannum==i)
+					a(href="http://localhost:8000/"+urld+"?usd="+i)
+						li=i+1
+				-else
+					a(href="http://localhost:8000/"+urld+"?usd="+i)
+						li=i+1

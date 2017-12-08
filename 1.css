@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.ul1{
+	width: 500px;
+	height: 100px;
+	overflow: hidden;
+}
+.ul1 a{
+	float: left;
+	padding: 5px 10px;
+	margin: 0px 20px;
+	display: inline-block;
+	color: #000000;
+}
+.uli a li{
+	color: #000000;
+	display: inline-block;
+}
+.dian li{
+	float: left;
+	padding: 5px 10px;
+	margin: 0px 10px;
+	border: 1px solid #cccccc;
+}
